@@ -1,9 +1,22 @@
+import math
+####### formula 2
+def slope_formula(a,b):
+    c=math.pow(a+b,2)
+    return c
+########
+
 def fourierseries():
     return "monday"
 def slopeformula1():
     return "tuesday"
 def slopeformula2():
-    return "wednesday"
+    n1=input('Enter First Number : ')
+    n2=input('Enter Second Number : ')
+    n1 = float(n1)
+    n2 = float(n2)
+    print(slope_formula(n1,n2))
+
+
 def quadraticformula():
     return "thursday"
 def laplaceformula():
